@@ -1,0 +1,125 @@
+
+.container {
+    margin: 157px auto;
+    width: 347px;
+    height: 406px;
+    flex-shrink: 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+body {
+    background: #093545;
+}
+.heading {
+    color: #FFF;
+    font-family: Lexend Deca;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 10px;
+}
+.sub-heading{
+    color: #FFF;
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+.text-input{
+    border-radius: 10px;
+    background: #224957;
+    width: 300px;
+    height: 45px;
+    flex-shrink: 0;
+    outline: none;
+    color: #FFF;
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0px 15px;
+    border: 0px;
+}
+.rememberme-check{
+    display: flex;
+    align-items: center;
+}
+.rememberme-checkbox{
+    width: 18px;
+    height: 17px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #224957;
+    appearance: none;
+}
+.rememberme-text{
+    height: 17px;
+    width: 108px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.forgot-text{
+    color: #20DF7F;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.password-check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-text {
+    border-radius: 10px;
+    background: #20DF7F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+    width: 330px;
+    height: 45px;
+    /* padding: 0px 15px; */
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
+    border: 0px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    
+    
+}
+img.dark-mode{
+    position: fixed;
+    left: 20px;
+    bottom: 20px
+}
+.vector {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+
+
